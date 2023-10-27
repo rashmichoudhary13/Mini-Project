@@ -5,6 +5,10 @@ body {
   padding: 0px;
   font-family: 'Merriweather',serif; }
 
+  html{
+    scroll-behavior: smooth;
+}
+
 * {
   margin: 0px;
   padding: 0px;
