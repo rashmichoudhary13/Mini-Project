@@ -207,6 +207,18 @@ padding-left: 2%;
     box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
   }
 
+/* sidebar search bar */
+.search{
+  padding: 5px;
+ width:189px;
+  border-radius: 23px;
+}
+
+.fas{
+  margin: 6px;
+  height: 24px;
+  font-size: 24px !important;
+}
 
 
 
