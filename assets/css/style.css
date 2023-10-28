@@ -213,22 +213,8 @@ a:hover {
     .slider .carousel-inner .carousel-item .carousel-caption .button-01:hover{
        background-color: #4b3a3adc;
     }
-      /* .slider .carousel-inner .carousel-item .carousel-caption .button-01 ul li {
-        display: inline-block;
-        padding: 8px 10px;
-        border: solid 1px #fff; }
-        .slider .carousel-inner .carousel-item .carousel-caption .button-01 ul li:nth-child(1) {
-          margin-right: 20px;
-          background: #dc000e;
-          border: 1px solid #dc000e;
-          color: #002147; }
-        .slider .carousel-inner .carousel-item .carousel-caption .button-01 ul li a {
-          font-size: 0.9rem;
-          color: #fff;
-          text-transform: uppercase;
-          letter-spacing: 0.4px; } */
 
-/* ================================ Donation Section CSS =============================== */
+  /* ================================ Donation Section CSS =============================== */
 
 .donation-spacing{
   margin-top: 45px;
@@ -713,4 +699,9 @@ footer {
   cursor: pointer;
   background: #d89ad4;
   border: 2px solid #FFEBEE;
+}
+
+/* form related */
+.modal-content{
+  margin-left: 5px;
 }

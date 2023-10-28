@@ -58,18 +58,18 @@
                                     <form class="row g-3">
                                         <div class="col-md-6 name">
                                             <label for="inputEmail4" class="form-label">Full Name</label>
-                                            <input type="email" class="form-control" id="inputName4" placeholder="First Name">
+                                            <input type="text" class="form-control" id="inputName4" placeholder="First Name">
                                         </div>
                                         <div class="col-md-6 last-name">
-                                            <input type="password" class="form-control" id="inputLast4" placeholder="Last Name">
+                                            <input type="text" class="form-control" id="inputLast4" placeholder="Last Name">
                                         </div>
                                         <div class="col-md-6 email">
-                                            <label for="inputEmail4" class="form-label">Email</label>
-                                            <input type="email" class="form-control" id="inputEmail4">
+                                            <label for="inputEmail" class="form-label">Email</label>
+                                            <input type="email" class="form-control" id="inputEmail">
                                         </div>
-                                        <div class="col-md-6 password">
-                                            <label for="inputPassword4" class="form-label">Password</label>
-                                            <input type="password" class="form-control" id="inputPassword4">
+                                        <div class="col-md-6 mobile">
+                                            <label for="inputmobile" class="form-label"> Phone no</label>
+                                            <input type="tel" name="tel" class="form-control" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
                                         </div>
                                         <div class="col-12 address">
                                             <label for="inputAddress" class="form-label">Address</label>
@@ -128,10 +128,15 @@
                                                 <option value="West Bengal">West Bengal</option>
                                             </select>
                                         </div>
-                                        <div class="col-md-6 mobile">
-                                            <label for="inputmobile" class="form-label"> Phone no</label>
-                                            <input type="tel" name="tel" class="form-control" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                                        <div class="col-md-6 password">
+                                            <label for="inputPassword4" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="inputPassword">
                                         </div>
+                                        <div class="col-md-6 con-password">
+                                            <label for="inputconPassword4" class="form-label">Confirm Password</label>
+                                            <input type="password" class="form-control" id="inputconpassword">
+                                        </div>
+                                       
                                         <!-- sign in and check me out button -->
                                         <div class="col-12">
                                             <div class="form-check mycheck">
@@ -150,7 +155,8 @@
                         </div>
                     </div>
                 </div>
-</body>
+
+
 
 <script src="assets/js/jquery-3.2.1.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
