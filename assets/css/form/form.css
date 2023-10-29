@@ -1,19 +1,5 @@
-@font-face {
-    font-family: 'mouse-300';
-    src: url("../fonts/RobotoSlab-Regular.ttf") format("truetype");
-  }
-  
-  @font-face {
-    font-family: 'mouse-500';
-    src: url("../fonts/RobotoSlab-Bold.ttf") format("truetype");
-  }
-  
-  /* ===================================== Basic CSS ================================== */
-  * {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-  }
+/* ===================================== Basic CSS ================================== */
+
   
   a {
     text-decoration: none;
@@ -93,6 +79,7 @@
   .container-fluid {
     padding: 0px;
     margin-right: -292%;
+    margin-left: auto;
   }
   
   h1,
@@ -422,5 +409,23 @@
   .mobile{
     margin-left: 24px;
   }
+  .close{
+  position: absolute;
+    left: -50px;
+    top: 17px;
+    font-size: 34px;
+  }
   
+  .modal-content{
+    width:135%!important;
+    padding-left:430px;
+    margin-left:-265%;
+  }
   
+  .modal-backdrop.show{
+    opacity:.5}
+/* CSS to overwrite bootstrap */
+.row{
+  margin-right: -454px;
+  margin-left: -89px;
+}

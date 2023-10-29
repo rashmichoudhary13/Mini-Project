@@ -1,4 +1,4 @@
-@import url(https://https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap);
+/* @import url(https://https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap); */
 /* ================================ Basic CSS =============================== */
 body {
   margin: 0px;
@@ -48,6 +48,14 @@ a:hover {
       width: 100%; } }
 
 /* ================================ Navbar CSS =============================== */
+
+.nav-row{
+  display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+}
 .my-nav {
   position: fixed;
   width: 100%;
@@ -702,6 +710,8 @@ footer {
 }
 
 /* form related */
-.modal-content{
-  margin-left: 5px;
+
+.modal-content {
+  background-color: #fff;
 }
+
