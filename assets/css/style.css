@@ -20,6 +20,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0px; }
 
+  .bg{
+    background: rgba(0, 33, 71, 0.9);
+  }
+
 ul, ol {
   margin: 0px;
   padding: 0px; }
@@ -359,10 +363,140 @@ word-spacing: 10px;
         transition: ease-in-out 0.4s;
         z-index: 1; }
 
+.bg-03 {
+  padding: 50px 0px;
+  background-image: url(../images/background/1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 9; }
+  .bg-03 ._lk_bg_cd {
+    padding: 20px 25px;
+    position: relative;
+    display: block;
+    z-index: 8;
+    text-align: center; }
+    .bg-03 ._lk_bg_cd i {
+      font-size: 30px;
+      color: #fff;
+      display: block;
+      padding: 10px 0px; }
+    .bg-03 ._lk_bg_cd .counting {
+      display: block;
+      font-size: 20px;
+      color: #dc000e;
+      font-weight: 600; }
+    .bg-03 ._lk_bg_cd h5 {
+      font-size: 18px;
+      color: #fff;
+      padding: 10px 0px;
+      display: inline-block; }
 
+.team {
+  padding: 50px 0px;
+  position: relative;
+  overflow: hidden; }
+  .team .team-card {
+    position: relative;
+    display: block;
+    padding: 20px 25px; }
+    .team .team-card .image-team {
+      overflow: hidden;
+      display: inline-block;
+      margin-bottom: 10px; }
+    .team .team-card .team-content {
+      display: block;
+      text-align: center; }
+      .team .team-card .team-content h3 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #002147;
+        padding: 0 0 5px 0; }
+      .team .team-card .team-content p {
+        display: block;
+        font-size: 15px;
+        color: #fff;
+        padding: 0 0 10px 0; }
+      .team .team-card .team-content ol li {
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        text-align: center;
+        background: #002147;
+        color: #fff;
+        transition: ease-in-out 0.5s;
+        padding: 0 5px;
+        position: relative;
+        border-radius: 50%; }
+        .team .team-card .team-content ol li:hover {
+          background: #dc000e; }
 
-
-
+.bg-04 {
+  padding: 50px 0px;
+  background: #eef6ff;
+  position: relative;
+  overflow: hidden; }
+  .bg-04 ._lk_bg_sd_we {
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+    box-shadow: 0px 0px 15px 0px #ddd; }
+    .bg-04 ._lk_bg_sd_we ._xs_we_er {
+      display: inline-block;
+      width: 100%;
+      padding: 15px; }
+      .bg-04 ._lk_bg_sd_we ._xs_we_er ._he_w {
+        position: relative;
+        margin: 10px 0px;
+        z-index: 2;
+        overflow: hidden; }
+        .bg-04 ._lk_bg_sd_we ._xs_we_er ._he_w p {
+          font-size: 16px;
+          color: #5c5c5c;
+          letter-spacing: 0.2px;
+          line-height: 24px;
+          margin: 15px 0px 10px 0px; }
+        .bg-04 ._lk_bg_sd_we ._xs_we_er ._he_w ol li {
+          color: #f55e45;
+          font-size: 14px;
+          display: inline-block;
+          width: 100%; }
+          .bg-04 ._lk_bg_sd_we ._xs_we_er ._he_w ol li ._mn_cd_xs {
+            margin: 0 10px; }
+          .bg-04 ._lk_bg_sd_we ._xs_we_er ._he_w ol li span {
+            color: #5c5c5c;
+            font-size: 15px;
+            font-weight: 500;
+            margin: 0 5px 0 0; }
+        .bg-04 ._lk_bg_sd_we ._xs_we_er ._he_w h3 {
+          font-size: 18px;
+          font-weight: 400;
+          color: #292929; }
+    .bg-04 ._lk_bg_sd_we ._bv_xs_we {
+      position: relative;
+      z-index: 1;
+      background: url(../images/blog/blog_2.jpg);
+      background-repeat: no-repeat !important;
+      height: 300px;
+      background-size: cover !important;
+      background-position: center !important; }
+      .bg-04 ._lk_bg_sd_we ._bv_xs_we:hover::before {
+        opacity: 1.5;
+        width: 100%;
+        visibility: visible;
+        transition: 0.5s; }
+      .bg-04 ._lk_bg_sd_we ._bv_xs_we::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 100%;
+        top: 0;
+        background: #002147;
+        transition: 0.5s;
+        opacity: 2;
+        visibility: hidden; }
 
 .heading {
   position: relative;
@@ -426,14 +560,86 @@ word-spacing: 10px;
       .bg-02-a ._head_01 p span {
         color: #dc000e; }
 
-/* About us */
-.pic img {
-  float: right;
-}
+.se-001 {
+  padding: 40px 0px;
+  position: relative;
+  overflow: hidden; }
+  .se-001 .yu {
+    text-align: center; }
+  .se-001 ._Ol_er_qw {
+    margin: 20px 0px;
+    padding: 10px; }
+    .se-001 ._Ol_er_qw p {
+      font-size: 15px;
+      color: #222222;
+      text-align: left;
+      letter-spacing: 0.5px;
+      line-height: 28px; }
 
+._pl_rt {
+  padding: 40px 0px;
+  position: relative; }
+  ._pl_rt ._lo_we_ds {
+    background: #dc000e;
+    color: #fff;
+    padding: 30px 50px;
+    position: relative;
+    top: 55px;
+    z-index: 9;
+    box-shadow: 0px 0px 3px 0px #ddd; }
+    ._pl_rt ._lo_we_ds ._ol_we_as {
+      position: relative;
+      padding: 10px 20px;
+      display: inline-block; }
+      ._pl_rt ._lo_we_ds ._ol_we_as ol li {
+        display: block;
+        position: relative;
+        padding: 0 0 0 40px; }
+        ._pl_rt ._lo_we_ds ._ol_we_as ol li h3 {
+          color: #fff;
+          font-size: 20px; }
+        ._pl_rt ._lo_we_ds ._ol_we_as ol li i {
+          position: absolute;
+          left: 0;
+          font-size: 26px;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          height: 100%; }
+    @media screen and (max-width: 768px) {
+      ._pl_rt ._lo_we_ds {
+        padding: 20px 0px; } }
 
-
-
+.my-pla {
+  padding: 40px 0px;
+  background-image: url(../images/background/1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  position: relative;
+  z-index: 9; }
+  .my-pla::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.2); }
+  .my-pla .form-group {
+    margin: 10px 0px;
+    color: #fff;
+    position: relative;
+    z-index: 2; }
+    .my-pla .form-group .form-control {
+      background: transparent;
+      color: #fff;
+      border: 1px solid #fff;
+      min-height: 45px;
+      border-radius: 4px;
+      margin: 10px 0px; }
 
 /* ================================ Footer CSS =============================== */
 footer {

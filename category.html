@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/category.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
-    <!-- Navigation bar -->
-
-    <header>
+    <!-- Navigation bar --> 
+     <header>
       <div class="my-nav bg">
         <div class="container">
           <div class="row">
@@ -39,9 +40,9 @@
         </div>
       </div>
     </header>
-
-    <!-- Sidebar -->
-    <div class="sidebar">
+<!-- 
+    Sidebar -->
+     <div class="sidebar">
       <div class="main_box">
         <div class="sidebar_menu">
           <div class="logo">
@@ -75,6 +76,106 @@
       </div>
     </div>
 
-    <div class="maincontent"></div>
+<section class="main">
+   <!-- Upload button to upload images  -->
+    <div class="upload">
+      <button class="btn"> Upload </button>
+    </div>
+
+    <!-- Dropdown content -->
+
+    <!-- <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+       Sub-Category
+      </button>
+        <option selected>Choose...</option>
+        <option value="Books">Books</option>
+        <option value="Bag">Bag</option>
+        <option value="Bihar">Digest</option>
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    District
+      </button>
+      <ul class="dropdown-menu" data-bs-dropdown="true">
+        <li><button class="dropdown-item" type="button">Panvel</button></li>
+        <li><button class="dropdown-item" type="button">Thane</button></li>
+        <li><button class="dropdown-item" type="button">Raigad</button></li>
+      </ul>
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  City
+      </button>
+      <ul class="dropdown-menu" data-bs-dropdown="true">
+        <li><button class="dropdown-item" type="button">Kalyan</button></li>
+        <li><button class="dropdown-item" type="button">Dombivli</button></li>
+        <li><button class="dropdown-item" type="button">Thakurli</button></li>
+      </ul>
+    </div>
+     -->
+<div class="dropdown">
+     <div class="select-menu">
+      <div class="select-btn">
+        <span class="sBtn-text">Sub-Category</span>
+        <i class="bx bx-chevron-down"></i>
+      </div>
+      <ul class="options">
+        <li class="option">
+          <span class="option-text">Textbook</span>
+        </li>
+        <li class="option">
+          <span class="option-text">Bag</span>
+        </li>
+        <li class="option">
+          <span class="option-text">Digest</span>
+        </li>
+      </ul>
+   </div>
+
+   <div class="select-menu">
+   <div class="select-btn">
+    <span class="sBtn-text">District</span>
+    <i class="bx bx-chevron-down"></i>
+  </div>
+  <ul class="options">
+    <li class="option">
+      <span class="option-text">Raigad</span>
+    </li>
+    <li class="option">
+      <span class="option-text">Thane</span>
+    </li>
+    <li class="option">
+      <span class="option-text">Pune</span>
+    </li>
+  </ul>
+   </div>
+
+   <div class="select-menu">
+   <div class="select-btn">
+    <span class="sBtn-text">City</span>
+    <i class="bx bx-chevron-down"></i>
+  </div>
+  <ul class="options">
+    <li class="option">
+      <span class="option-text">Panvel</span>
+    </li>
+    <li class="option">
+      <span class="option-text">Khandeshwar</span>
+    </li>
+    <li class="option">
+      <span class="option-text">Nerul</span>
+    </li>
+  </ul>
+   </div>
+      </div>
+   
+    <div class="maincontent">
+     
+    </div>
+  </section>
   </body>
+
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/category.js"></script>
+
 </html>
