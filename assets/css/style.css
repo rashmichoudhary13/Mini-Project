@@ -31,7 +31,7 @@ a {
   text-decoration: none; }
 
 p {
-  margin: 0px; }
+  margin: 0px;}
 
 input:focus {
   box-shadow: none; }
@@ -380,7 +380,7 @@ word-spacing: 10px;
     font-size: 16px;
     letter-spacing: 0.4px;
     color: #373738;
-    margin: 10px 0px;
+    margin: 10 0 px;
     font-weight: 400;
     line-height: 27px;
     text-transform: capitalize; }
@@ -429,7 +429,33 @@ word-spacing: 10px;
 /* About us */
 .pic img {
   float: right;
+  /* width: 50%; */
 }
+#about-us .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* text-align: justify; */
+ 
+}
+
+#about-us .container .heading .pic {
+  flex: 0; /* Allow the pic to take up available space */
+  margin-left: 20px; /* Adjust margin as needed */
+  
+}
+
+#about-us .container .heading .text-box {
+  flex: 1; /* Allow the text-box to take up available space */
+  margin-right: 20px; /* Adjust margin as needed */
+  
+}
+
+h2{
+  margin-bottom: 20px;
+}
+
+
 
 
 
@@ -475,11 +501,11 @@ footer {
     footer ._kl_de_w p {
       font-size: 15px;
       line-height: 26px;
-      color: #fff; }
+      color: #ffffff; }
     footer ._kl_de_w h3 {
       font-size: 20px;
       margin: 0 0 20px 0;
-      color: #fff; }
+      color: #ffffff; }
   footer .copy-right {
     position: relative;
     padding: 15px 0px;
@@ -512,4 +538,5 @@ footer {
 .modal-content {
   background-color: #fff;
 }
+
 
