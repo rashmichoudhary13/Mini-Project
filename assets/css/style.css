@@ -35,7 +35,7 @@ a {
   text-decoration: none; }
 
 p {
-  margin: 0px; }
+  margin: 0px;}
 
 input:focus {
   box-shadow: none; }
@@ -514,7 +514,7 @@ word-spacing: 10px;
     font-size: 16px;
     letter-spacing: 0.4px;
     color: #373738;
-    margin: 10px 0px;
+    margin: 10 0 px;
     font-weight: 400;
     line-height: 27px;
     text-transform: capitalize; }
@@ -560,86 +560,29 @@ word-spacing: 10px;
       .bg-02-a ._head_01 p span {
         color: #dc000e; }
 
-.se-001 {
-  padding: 40px 0px;
-  position: relative;
-  overflow: hidden; }
-  .se-001 .yu {
-    text-align: center; }
-  .se-001 ._Ol_er_qw {
-    margin: 20px 0px;
-    padding: 10px; }
-    .se-001 ._Ol_er_qw p {
-      font-size: 15px;
-      color: #222222;
-      text-align: left;
-      letter-spacing: 0.5px;
-      line-height: 28px; }
+/* About us */
+.pic img {
+  float: right;
+}
+#about-us .container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
 
-._pl_rt {
-  padding: 40px 0px;
-  position: relative; }
-  ._pl_rt ._lo_we_ds {
-    background: #dc000e;
-    color: #fff;
-    padding: 30px 50px;
-    position: relative;
-    top: 55px;
-    z-index: 9;
-    box-shadow: 0px 0px 3px 0px #ddd; }
-    ._pl_rt ._lo_we_ds ._ol_we_as {
-      position: relative;
-      padding: 10px 20px;
-      display: inline-block; }
-      ._pl_rt ._lo_we_ds ._ol_we_as ol li {
-        display: block;
-        position: relative;
-        padding: 0 0 0 40px; }
-        ._pl_rt ._lo_we_ds ._ol_we_as ol li h3 {
-          color: #fff;
-          font-size: 20px; }
-        ._pl_rt ._lo_we_ds ._ol_we_as ol li i {
-          position: absolute;
-          left: 0;
-          font-size: 26px;
-          color: #fff;
-          display: flex;
-          align-items: center;
-          height: 100%; }
-    @media screen and (max-width: 768px) {
-      ._pl_rt ._lo_we_ds {
-        padding: 20px 0px; } }
+#about-us .container .heading .pic {
+  flex: 1; /* Allow the pic to take up available space */
+  margin-right: 20px; /* Adjust margin as needed */
+}
 
-.my-pla {
-  padding: 40px 0px;
-  background-image: url(../images/background/1.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  overflow: hidden;
-  position: relative;
-  z-index: 9; }
-  .my-pla::before {
-    position: absolute;
-    content: "";
-    left: 0;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    background: rgba(0, 0, 0, 0.2); }
-  .my-pla .form-group {
-    margin: 10px 0px;
-    color: #fff;
-    position: relative;
-    z-index: 2; }
-    .my-pla .form-group .form-control {
-      background: transparent;
-      color: #fff;
-      border: 1px solid #fff;
-      min-height: 45px;
-      border-radius: 4px;
-      margin: 10px 0px; }
+#about-us .container .heading .text-box {
+  flex: 1; /* Allow the text-box to take up available space */
+  margin-left: 20px; /* Adjust margin as needed */
+}
+
+
+
+
 
 /* ================================ Footer CSS =============================== */
 footer {
@@ -681,11 +624,11 @@ footer {
     footer ._kl_de_w p {
       font-size: 15px;
       line-height: 26px;
-      color: #fff; }
+      color: #ffffff; }
     footer ._kl_de_w h3 {
       font-size: 20px;
       margin: 0 0 20px 0;
-      color: #fff; }
+      color: #ffffff; }
   footer .copy-right {
     position: relative;
     padding: 15px 0px;
@@ -718,4 +661,5 @@ footer {
 .modal-content {
   background-color: #fff;
 }
+
 
